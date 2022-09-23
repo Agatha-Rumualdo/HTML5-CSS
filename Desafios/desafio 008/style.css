@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgba(140, 0, 255, 0.548);
+}
+
+body.cor01{
+    background-color: rgba(0, 81, 255, 0.5);
+}
+
+body.cor02{
+    background-color: rgba(255, 20, 145, 0.377);
+}
+

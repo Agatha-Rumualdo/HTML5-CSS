@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body {
+    background-color:rgba(130, 20, 255, 0.24);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-shadow: 10px black;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:unset;
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:unset;
+}
