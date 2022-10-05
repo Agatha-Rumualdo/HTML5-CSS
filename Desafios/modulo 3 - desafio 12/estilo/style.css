@@ -1,24 +1,31 @@
 @charset "UTF-8";
 
-@import url("https://fonts.googleapis.com/css2? family= Passion+One & display=swap");
+@font-face {
+    font-family: 'baby girl';
+    src: url('../fontes/212\ Baby\ Girl.otf') format('OpenType');
+}
 
-@font-face
+@font-face {
+    font-family: 'Cordel';
+    src: url('../fontes/Cordel\ Rustika.otf') format('OpenType');
+}
 
 :root {
-    --font1: Verdana, Geneva, Tahoma, sans-serif;
-    --font2: 'Passion One', cursiva;
-    --font3: 'Sriracha', cursiva;
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Cordel';
+    --fonte3: 'baby girl';
 }
 
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
     min-height: 100vh;
     background-color: darkgrey;
-    font-family: var(--font1);
+    font-family: var(--fonte1);
 }
 
 header {
@@ -30,7 +37,8 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
-    font-family: var(--font2);
+    font-family: var(--fonte2);
+    font-size: 6vw;
 }
 
 header > p {
@@ -52,7 +60,7 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family: var(--font3);
+    font-family: var(--fonte3);
 }
 
 section.normal {
@@ -63,11 +71,11 @@ section.normal {
 section.imagem {
     background-color: rgba(0, 0, 0, 0.623);
     color: white;
-
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.548);
 }
 
