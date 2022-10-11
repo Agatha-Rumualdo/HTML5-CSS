@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid purple;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabelas</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th>Grupos</th>
+                <th>Nomes</th>
+                <th colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Mulheres</th>
+                <td>Renata Barbosa da Silva</td>
+                <td>Cinderela</td>
+                <td>Rei Leão</td>
+                <td>Toy Story</td>
+            </tr>
+            <tr>
+                <td>Jhennyfer Maria dos Santos</td>
+                <td>A Orfâ</td>
+                <td>Telefone Preto</td>
+                <td>Velozes e Furiosos</td>
+            </tr>
+            <tr>
+                <td>Luara Muller</td>
+                <td>Batman</td>
+                <td>Ghost</td>
+                <td>Cinco Passos de Você</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Homens</th>
+                <td>Thiago Martins Vieira</td>
+                <td>De Volta para o Futuro</td>
+                <td>Rambo</td>
+                <td>Matrix</td>
+            </tr>
+            <tr>
+                <td>Igor Mathis Mota</td>
+                <td>Intocáveis</td>
+                <td>Gladiador</td>
+                <td>Corrida Maluca</td>
+            </tr>
+            <tr>
+                <td>Raphael Santiago</td>
+                <td>Vingadores</td>
+                <td>SuperMan</td>
+                <td>X-Men</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
